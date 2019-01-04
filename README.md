@@ -34,3 +34,5 @@ Links for SAMD Reference:
 https://github.com/adafruit/Adafruit-Feather-M0-Express-PCB
 https://www.adafruit.com/product/3857
 https://www.adafruit.com/product/3500
+https://github.com/adafruit/ArduinoCore-samd/blob/master/variants/feather_m0_express/
+https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/adafruit2-pinouts
