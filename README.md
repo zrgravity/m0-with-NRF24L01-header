@@ -36,3 +36,4 @@ https://www.adafruit.com/product/3857
 https://www.adafruit.com/product/3500
 https://github.com/adafruit/ArduinoCore-samd/blob/master/variants/feather_m0_express/
 https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/adafruit2-pinouts
+http://ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf
