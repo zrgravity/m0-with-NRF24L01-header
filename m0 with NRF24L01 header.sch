@@ -57,7 +57,7 @@ U 1 1 5C32397A
 P 4250 1000
 F 0 "J9" H 4300 1317 50  0000 C CNN
 F 1 "NRF24L01 Module" H 4300 1226 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 4250 1000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 4250 1000 50  0001 C CNN
 F 3 "~" H 4250 1000 50  0001 C CNN
 	1    4250 1000
 	1    0    0    -1  
@@ -68,7 +68,7 @@ U 1 1 5C323AEA
 P 8350 3050
 F 0 "J10" H 8378 3076 50  0000 L CNN
 F 1 "Conn_01x05_Female Taranis I/O" H 8378 2985 50  0000 L CNN
-F 2 "" H 8350 3050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8350 3050 50  0001 C CNN
 F 3 "~" H 8350 3050 50  0001 C CNN
 	1    8350 3050
 	1    0    0    -1  
@@ -351,7 +351,7 @@ U 1 1 5C3A2B5C
 P 2950 950
 F 0 "J2" H 3030 942 50  0000 L CNN
 F 1 "I2C" H 3030 851 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical" H 2950 950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2950 950 50  0001 C CNN
 F 3 "~" H 2950 950 50  0001 C CNN
 	1    2950 950 
 	1    0    0    -1  
@@ -486,7 +486,7 @@ U 1 1 5C3AA2A1
 P 6550 5650
 F 0 "J6" H 6600 5350 50  0000 L CNN
 F 1 "ARDU_PINS" H 6250 5250 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 6550 5650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6550 5650 50  0001 C CNN
 F 3 "~" H 6550 5650 50  0001 C CNN
 	1    6550 5650
 	1    0    0    -1  
@@ -497,7 +497,7 @@ U 1 1 5C3AA500
 P 7050 5650
 F 0 "J7" H 7100 5350 50  0000 L CNN
 F 1 "ARDU_PINS_GND" H 6650 5950 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 7050 5650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7050 5650 50  0001 C CNN
 F 3 "~" H 7050 5650 50  0001 C CNN
 	1    7050 5650
 	1    0    0    -1  
@@ -508,7 +508,7 @@ U 1 1 5C3AA55E
 P 7750 5650
 F 0 "J8" H 7750 5350 50  0000 L CNN
 F 1 "ARDU_PINS_3V3" H 7400 5250 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 7750 5650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7750 5650 50  0001 C CNN
 F 3 "~" H 7750 5650 50  0001 C CNN
 	1    7750 5650
 	1    0    0    -1  
@@ -609,7 +609,7 @@ U 1 1 5C3BB187
 P 4550 7100
 F 0 "J3" H 4400 7500 50  0000 L CNN
 F 1 "Extra Pins" H 4250 6700 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical" H 4550 7100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4550 7100 50  0001 C CNN
 F 3 "~" H 4550 7100 50  0001 C CNN
 	1    4550 7100
 	1    0    0    -1  
@@ -620,7 +620,7 @@ U 1 1 5C3BB349
 P 5050 7100
 F 0 "J4" H 4900 7500 50  0000 L CNN
 F 1 "Extra Pins GND" H 4600 7600 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical" H 5050 7100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 5050 7100 50  0001 C CNN
 F 3 "~" H 5050 7100 50  0001 C CNN
 	1    5050 7100
 	1    0    0    -1  
@@ -631,7 +631,7 @@ U 1 1 5C3BB38D
 P 5550 7100
 F 0 "J5" H 5400 7500 50  0000 L CNN
 F 1 "Extra Pins 3V3" H 5250 6700 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x07_P1.27mm_Vertical" H 5550 7100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 5550 7100 50  0001 C CNN
 F 3 "~" H 5550 7100 50  0001 C CNN
 	1    5550 7100
 	1    0    0    -1  
@@ -870,7 +870,7 @@ U 1 1 5C3A2903
 P 1850 1000
 F 0 "J1" H 1930 1042 50  0000 L CNN
 F 1 "UART" H 1930 951 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1850 1000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1850 1000 50  0001 C CNN
 F 3 "~" H 1850 1000 50  0001 C CNN
 	1    1850 1000
 	1    0    0    -1  

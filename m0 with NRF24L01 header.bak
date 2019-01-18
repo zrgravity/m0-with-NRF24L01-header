@@ -994,4 +994,6 @@ Wire Wire Line
 	8900 1000 8900 1100
 Text Notes 8750 600  0    50   ~ 0
 ESR: 33mOhm to 2.2Ohm
+Text Notes 9400 1100 0    50   ~ 0
+Expected ERC Error:\nPin 2 (Power Output) should be tied to \nPin 4 (Power Output)
 $EndSCHEMATC
