@@ -62,27 +62,6 @@ F 3 "~" H 4250 1000 50  0001 C CNN
 	1    4250 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x05_Female J10
-U 1 1 5C323AEA
-P 8350 3050
-F 0 "J10" H 8378 3076 50  0000 L CNN
-F 1 "Conn_01x05_Female Taranis I/O" H 8378 2985 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8350 3050 50  0001 C CNN
-F 3 "~" H 8350 3050 50  0001 C CNN
-	1    8350 3050
-	1    0    0    -1  
-$EndComp
-Text Label 8150 2850 2    50   ~ 0
-Taranis_OUT
-Text Label 8150 2950 2    50   ~ 0
-Taranis_HEARTBEAT
-Text Label 8150 3050 2    50   ~ 0
-Taranis_BATT
-Text Label 8150 3150 2    50   ~ 0
-Taranis_GND
-Text Label 8150 3250 2    50   ~ 0
-Taranis_SPORT
 Text Label 4050 900  2    50   ~ 0
 NRF_GND
 Text Label 4050 1000 2    50   ~ 0
@@ -99,104 +78,6 @@ Text Label 4550 1100 0    50   ~ 0
 NRF_MOSI
 Text Label 4550 1200 0    50   ~ 0
 NRF_IRQ
-$Comp
-L Device:Q_NMOS_DGS Q1
-U 1 1 5C3240E7
-P 6650 2750
-F 0 "Q1" V 6900 2750 50  0000 C CNN
-F 1 "SI2304DDS-T1-GE3" V 6991 2750 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 2850 50  0001 C CNN
-F 3 "~" H 6650 2750 50  0001 C CNN
-	1    6650 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8150 2850 6950 2850
-$Comp
-L power:+BATT #PWR0110
-U 1 1 5C32425E
-P 7350 3050
-F 0 "#PWR0110" H 7350 2900 50  0001 C CNN
-F 1 "+BATT" H 7200 3150 50  0000 C CNN
-F 2 "" H 7350 3050 50  0001 C CNN
-F 3 "" H 7350 3050 50  0001 C CNN
-	1    7350 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 3050 8150 3050
-$Comp
-L power:GND #PWR0112
-U 1 1 5C3242E4
-P 7350 3150
-F 0 "#PWR0112" H 7350 2900 50  0001 C CNN
-F 1 "GND" H 7355 2977 50  0000 C CNN
-F 2 "" H 7350 3150 50  0001 C CNN
-F 3 "" H 7350 3150 50  0001 C CNN
-	1    7350 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5C32433C
-P 6950 2650
-F 0 "R2" H 7020 2696 50  0000 L CNN
-F 1 "10k" H 7020 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 2650 50  0001 C CNN
-F 3 "~" H 6950 2650 50  0001 C CNN
-	1    6950 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5C324454
-P 6250 2650
-F 0 "R1" H 6320 2696 50  0000 L CNN
-F 1 "10k" H 6320 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 2650 50  0001 C CNN
-F 3 "~" H 6250 2650 50  0001 C CNN
-	1    6250 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0113
-U 1 1 5C3244A1
-P 6250 2350
-F 0 "#PWR0113" H 6250 2200 50  0001 C CNN
-F 1 "+3.3V" H 6265 2523 50  0000 C CNN
-F 2 "" H 6250 2350 50  0001 C CNN
-F 3 "" H 6250 2350 50  0001 C CNN
-	1    6250 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 2350 6250 2500
-Wire Wire Line
-	6250 2500 6650 2500
-Wire Wire Line
-	6650 2500 6650 2550
-Connection ~ 6250 2500
-Wire Wire Line
-	6450 2850 6250 2850
-Wire Wire Line
-	6250 2850 6250 2800
-Wire Wire Line
-	6950 2800 6950 2850
-Connection ~ 6950 2850
-Wire Wire Line
-	6950 2850 6850 2850
-Connection ~ 6250 2850
-$Comp
-L power:+BATT #PWR0114
-U 1 1 5C324707
-P 6950 2500
-F 0 "#PWR0114" H 6950 2350 50  0001 C CNN
-F 1 "+BATT" H 6965 2673 50  0000 C CNN
-F 2 "" H 6950 2500 50  0001 C CNN
-F 3 "" H 6950 2500 50  0001 C CNN
-	1    6950 2500
-	1    0    0    -1  
-$EndComp
 Text Label 1400 3200 2    50   ~ 0
 NRF_SCK
 Text Label 1400 3050 2    50   ~ 0
@@ -322,14 +203,6 @@ Text Label 1400 4250 2    50   ~ 0
 NRF_CE
 Wire Wire Line
 	1400 4250 1500 4250
-Text Notes 5300 3000 0    50   ~ 0
-Needs to go to timer input
-Text Notes 8000 3350 0    50   ~ 0
-To MCU (3.3V)
-Text Notes 8400 2950 0    50   ~ 0
-To MCU (+VBatt)
-Wire Wire Line
-	7350 3150 8150 3150
 Text Label 1650 900  2    50   ~ 0
 TX
 Text Label 1650 1000 2    50   ~ 0
@@ -382,102 +255,12 @@ Text Label 2750 950  2    50   ~ 0
 SCL
 Text Label 2750 1050 2    50   ~ 0
 SDA
-Text Label 5600 2850 0    50   ~ 0
-PWM_TC_INPUT
-Wire Wire Line
-	5600 2850 6250 2850
-Text Label 1400 2900 2    50   ~ 0
-PWM_TC_INPUT
 Wire Wire Line
 	1400 2900 1500 2900
 Text Notes 550  3250 0    50   ~ 0
 PA07:\nEXTINT[7]\nTCC1(W0)\nTCC3(WO)
-$Comp
-L Device:Q_NMOS_DGS Q2
-U 1 1 5C3A71AE
-P 8550 4450
-F 0 "Q2" V 8800 4450 50  0000 C CNN
-F 1 "SI2304DDS-T1-GE3" V 8891 4450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 4550 50  0001 C CNN
-F 3 "~" H 8550 4450 50  0001 C CNN
-	1    8550 4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10050 4550 8850 4550
-$Comp
-L Device:R R4
-U 1 1 5C3A71B6
-P 8850 4350
-F 0 "R4" H 8920 4396 50  0000 L CNN
-F 1 "10k" H 8920 4305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8780 4350 50  0001 C CNN
-F 3 "~" H 8850 4350 50  0001 C CNN
-	1    8850 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5C3A71BD
-P 8150 4350
-F 0 "R3" H 8220 4396 50  0000 L CNN
-F 1 "10k" H 8220 4305 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8080 4350 50  0001 C CNN
-F 3 "~" H 8150 4350 50  0001 C CNN
-	1    8150 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0122
-U 1 1 5C3A71C4
-P 8150 4050
-F 0 "#PWR0122" H 8150 3900 50  0001 C CNN
-F 1 "+3.3V" H 8165 4223 50  0000 C CNN
-F 2 "" H 8150 4050 50  0001 C CNN
-F 3 "" H 8150 4050 50  0001 C CNN
-	1    8150 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 4050 8150 4200
-Wire Wire Line
-	8150 4200 8550 4200
-Wire Wire Line
-	8550 4200 8550 4250
-Connection ~ 8150 4200
-Wire Wire Line
-	8350 4550 8150 4550
-Wire Wire Line
-	8150 4550 8150 4500
-Wire Wire Line
-	8850 4500 8850 4550
-Connection ~ 8850 4550
-Wire Wire Line
-	8850 4550 8750 4550
-Connection ~ 8150 4550
-$Comp
-L power:+BATT #PWR0123
-U 1 1 5C3A71D4
-P 8850 4200
-F 0 "#PWR0123" H 8850 4050 50  0001 C CNN
-F 1 "+BATT" H 8865 4373 50  0000 C CNN
-F 2 "" H 8850 4200 50  0001 C CNN
-F 3 "" H 8850 4200 50  0001 C CNN
-	1    8850 4200
-	1    0    0    -1  
-$EndComp
-Text Label 7250 4550 0    50   ~ 0
-Taranis_HEARTBEAT_3V3
-Wire Wire Line
-	7250 4550 8150 4550
-Text Label 10050 4550 2    50   ~ 0
-Taranis_HEARTBEAT
-Text Label 1400 2600 2    50   ~ 0
-Taranis_HEARTBEAT_3V3
 Wire Wire Line
 	1400 2600 1500 2600
-Text Label 1400 2450 2    50   ~ 0
-Taranis_SPORT
 Wire Wire Line
 	1400 2450 1500 2450
 $Comp
