@@ -259,38 +259,34 @@ Wire Wire Line
 	1400 2900 1500 2900
 Text Notes 550  3250 0    50   ~ 0
 PA07:\nEXTINT[7]\nTCC1(W0)\nTCC3(WO)
-Wire Wire Line
-	1400 2600 1500 2600
-Wire Wire Line
-	1400 2450 1500 2450
 $Comp
-L Connector:Conn_01x06_Female J6
+L Connector:Conn_01x09_Female J6
 U 1 1 5C3AA2A1
 P 6550 5650
 F 0 "J6" H 6600 5350 50  0000 L CNN
-F 1 "ARDU_PINS" H 6250 5250 50  0000 L CNN
+F 1 "ARDU_PINS" H 6250 5150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6550 5650 50  0001 C CNN
 F 3 "~" H 6550 5650 50  0001 C CNN
 	1    6550 5650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J7
+L Connector:Conn_01x09_Female J7
 U 1 1 5C3AA500
 P 7050 5650
 F 0 "J7" H 7100 5350 50  0000 L CNN
-F 1 "ARDU_PINS_GND" H 6650 5950 50  0000 L CNN
+F 1 "ARDU_PINS_GND" H 6800 6200 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7050 5650 50  0001 C CNN
 F 3 "~" H 7050 5650 50  0001 C CNN
 	1    7050 5650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x06_Female J8
+L Connector:Conn_01x09_Female J8
 U 1 1 5C3AA55E
 P 7750 5650
 F 0 "J8" H 7750 5350 50  0000 L CNN
-F 1 "ARDU_PINS_3V3" H 7400 5250 50  0000 L CNN
+F 1 "ARDU_PINS_3V3" H 7450 5150 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7750 5650 50  0001 C CNN
 F 3 "~" H 7750 5650 50  0001 C CNN
 	1    7750 5650
@@ -299,12 +295,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR0124
 U 1 1 5C3AA5A6
-P 7550 5400
-F 0 "#PWR0124" H 7550 5250 50  0001 C CNN
-F 1 "+3.3V" H 7565 5573 50  0000 C CNN
-F 2 "" H 7550 5400 50  0001 C CNN
-F 3 "" H 7550 5400 50  0001 C CNN
-	1    7550 5400
+P 7550 5250
+F 0 "#PWR0124" H 7550 5100 50  0001 C CNN
+F 1 "+3.3V" H 7565 5423 50  0000 C CNN
+F 2 "" H 7550 5250 50  0001 C CNN
+F 3 "" H 7550 5250 50  0001 C CNN
+	1    7550 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -321,18 +317,16 @@ Wire Wire Line
 Connection ~ 7550 5850
 Wire Wire Line
 	7550 5850 7550 5950
-Wire Wire Line
-	7550 5450 7550 5400
 Connection ~ 7550 5450
 $Comp
 L power:GND #PWR0125
 U 1 1 5C3AD0BF
-P 6850 5950
-F 0 "#PWR0125" H 6850 5700 50  0001 C CNN
-F 1 "GND" H 6855 5777 50  0000 C CNN
-F 2 "" H 6850 5950 50  0001 C CNN
-F 3 "" H 6850 5950 50  0001 C CNN
-	1    6850 5950
+P 6850 6050
+F 0 "#PWR0125" H 6850 5800 50  0001 C CNN
+F 1 "GND" H 6855 5877 50  0000 C CNN
+F 2 "" H 6850 6050 50  0001 C CNN
+F 3 "" H 6850 6050 50  0001 C CNN
+	1    6850 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -374,17 +368,17 @@ Wire Wire Line
 	1400 4400 1500 4400
 Wire Wire Line
 	1400 2150 1500 2150
-Text Label 6350 5750 2    50   ~ 0
-ARDU_14
-Text Label 6350 5550 2    50   ~ 0
-ARDU_10
 Text Label 6350 5650 2    50   ~ 0
-ARDU_12
+ARDU_14
 Text Label 6350 5450 2    50   ~ 0
+ARDU_10
+Text Label 6350 5550 2    50   ~ 0
+ARDU_12
+Text Label 6350 5250 2    50   ~ 0
 ARDU_6
-Text Label 6350 5950 2    50   ~ 0
+Text Label 6350 6050 2    50   ~ 0
 ARDU_19
-Text Label 6350 5850 2    50   ~ 0
+Text Label 6350 5750 2    50   ~ 0
 ARDU_15
 $Comp
 L Connector:Conn_01x07_Female J3
@@ -779,4 +773,38 @@ Text Notes 8750 600  0    50   ~ 0
 ESR: 33mOhm to 2.2Ohm
 Text Notes 9400 1100 0    50   ~ 0
 Expected ERC Error:\nPin 2 (Power Output) should be tied to \nPin 4 (Power Output)
+Text Label 1400 2450 2    50   ~ 0
+ARDU_A3
+Text Label 1400 2600 2    50   ~ 0
+ARDU_A4
+Text Label 1400 2900 2    50   ~ 0
+ARDU_9
+Wire Wire Line
+	1400 2600 1500 2600
+Wire Wire Line
+	1400 2450 1500 2450
+Text Label 6350 5850 2    50   ~ 0
+ARDU_A3
+Text Label 6350 5950 2    50   ~ 0
+ARDU_A4
+Text Label 6350 5350 2    50   ~ 0
+ARDU_9
+Wire Wire Line
+	7550 5250 7550 5350
+Connection ~ 7550 5250
+Connection ~ 7550 5350
+Wire Wire Line
+	7550 5350 7550 5450
+Wire Wire Line
+	6850 5450 6850 5350
+Connection ~ 6850 5450
+Connection ~ 6850 5350
+Wire Wire Line
+	6850 5350 6850 5250
+Wire Wire Line
+	7550 5950 7550 6050
+Connection ~ 7550 5950
+Wire Wire Line
+	6850 6050 6850 5950
+Connection ~ 6850 6050
 $EndSCHEMATC
