@@ -526,7 +526,7 @@ U 1 1 5C3D94DD
 P 6500 1100
 F 0 "J12" H 6600 1050 50  0000 C CNN
 F 1 "Batt Conn" H 6600 900 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 6500 1100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 1100 50  0001 C CNN
 F 3 "~" H 6500 1100 50  0001 C CNN
 	1    6500 1100
 	-1   0    0    1   
@@ -719,7 +719,7 @@ U 1 1 5C4089B7
 P 6300 4300
 F 0 "J13" H 6350 4000 50  0000 L CNN
 F 1 "SPI" H 6350 3900 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 6300 4300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 6300 4300 50  0001 C CNN
 F 3 "~" H 6300 4300 50  0001 C CNN
 	1    6300 4300
 	1    0    0    -1  
